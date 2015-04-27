@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/serverStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView2"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+    <ToggleButton
+        android:id="@+id/toggleServer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/serverStatus"
+        android:layout_marginTop="17dp"
+        android:checked="true"
+        android:textOff="Server off"
+        android:textOn="Server on" />
+    
+    <ToggleButton
+        android:id="@+id/toggleClient"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/toggleServer"
+        android:layout_alignBottom="@+id/toggleServer"
+        android:layout_marginLeft="34dp"
+        android:layout_toRightOf="@+id/toggleServer"
+        android:checked="true"
+        android:textOff="Client off"
+        android:textOn="Client on" />
+
+</RelativeLayout>

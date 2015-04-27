@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="app_name">SpeedSender</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">SpeedSender</string>
+    <string name="init_text">Getting speed</string>
+    <string name="toggleServer">Acting as server</string>
+    <string name="toggleClient">Acting as client</string>
+    <string name="toggleServerService">Start Server Service</string>
+    <string name="toggleClientService">Start Client Service</string>
+    <string name="SpeedServer">SpeedServer</string>
+    <string name="SpeedClient">SpeedClient</string>
+
+</resources>
